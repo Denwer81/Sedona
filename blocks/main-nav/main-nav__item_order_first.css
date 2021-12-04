@@ -1,0 +1,5 @@
+@media (max-width: 545px) {
+  .main-nav__item_order_first {
+    order: -1;
+  }
+}

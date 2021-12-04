@@ -1,0 +1,21 @@
+.main-nav__list {
+  display: flex;
+  width: 80%;
+  min-height: 75px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+@media (max-width: 769px) {
+  .main-nav__list {
+    width: 90%;
+  }
+}
+
+@media (max-width: 545px) {
+  .main-nav__list {
+    flex-direction: column;
+    width: 90%;
+  }
+}

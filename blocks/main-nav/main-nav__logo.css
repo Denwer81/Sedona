@@ -1,0 +1,18 @@
+.main-nav__logo {
+  display: inline;
+  width: 140px;
+  height: 70px;
+  transition: .2s ease-in;
+}
+
+.main-nav__logo:hover {
+  transform: scale(1.1) translate(0, 3px);;
+}
+
+@media (max-width: 545px) {
+  .main-nav__logo {
+    width: 220px;
+    height: 100%;
+    order: -1;
+  }
+}

@@ -1,0 +1,7 @@
+.main-foto__frame {
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}

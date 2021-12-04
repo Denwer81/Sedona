@@ -1,0 +1,18 @@
+.main-nav__item {
+  min-width: 90px;
+  text-align: center;
+}
+
+@media (max-width: 769px) {
+  .main-nav__item {
+    min-width: 70px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 545px) {
+  .main-nav__item {
+    position: relative;
+    padding-bottom: 5px;
+  }
+}
